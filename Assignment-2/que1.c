@@ -1,3 +1,5 @@
+/* QUE 1 : Write a program showing that the parent and child process will not share the memory location, even global memory. */
+
 #include<stdio.h>
 #include<unistd.h>
 #include<stdlib.h>
