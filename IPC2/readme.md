@@ -1,4 +1,6 @@
 <p> About Pipe : The pipe() system function is used to open file descriptors, which are used to communicate between different UNIX processes. the pipe() function creates a unidirectional data channel for inter-process communication. </p>
+<br>
+<p> Include lpthread during compiling for the thread libraries. </p>
 
 ### 1. Write a C program where the parent and a child process will exchange their information through PIPE IPC. 
 ### 2. Write a C program where the main process and the threading processes will exchange their data through pipe IPC. 
