@@ -23,3 +23,7 @@ int main() {
     }
     return 0;
 }
+
+/* So each process child and parent both have their own copy of global variable and local variable otherwise if they had shared it, 
+we would have got Child Process Value local Variable = 10, global Variable = 20, 
+in child process which was assigned in parent process which executed first but we didn’t. */
